@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style type="text/css"> 
+        section {
+            width: 100%;
+        }
+        a {
+            text-decoration: none;
+            color: peru;
+            font-size: 20px;
+        }
+        a:hover {
+            color: purple;
+        }
+        article {
+            padding: 20px;
+            display: inline-block;
+        }
+        li {
+            padding: 10px;
+        }
+    </style>
+    <header>
+          <h1>NucbersCinema</h1>
+        <nav> <!--etiqueta de navegacion, contendra links-->
+         <a href="#">Home</a>
+         <a href="#">Nosotros</a>
+         <a href="#">Precios</a>
+        </nav>
+        <section> <!--Etiqueta semantica que separa las secciones-->
+                <h2>Buscar tu pelicula</h2> 
+            <article> <!--Tambien son semanticos-->
+                <h3>Por anio</h3>
+                    <label for="">
+                        <input type="radio" name="Peliyear" id="">2018 <!--La etiqueta name permite que sea una sola seleccion entre todos los input-->
+                    </label>
+                    <label for="">
+                        <input type="radio" name="Peliyear" id="">2019
+                    </label>
+                    <label for="">
+                        <input type="radio" name="Peliyear" id="">2020  
+                    </label>
+                    <label for="">
+                        <input type="radio" name="Peliyear" id="">2021
+                    </label>
+            </article>  
+            <article> <!--Tambien son semanticos-->
+                <h3 style="color: blue;">Por nombre</h3>
+                    <label for="">
+                        <input type="text" placeholder="Busqueda...">
+                    </label>
+            </article>  
+            <article> <!--Tambien son semanticos-->
+                <h3>Por Genero</h3>
+                    <select name="" id=""> <!--Un input que permite elegir entre opciones-->
+                        <option value="">....</option>
+                        <option value="1">Accion</option>
+                        <option value="2">Drama</option>
+                        <option value="3">Comedia</option>
+                        <option value="4">Terror</option>
+                        <option value="5">Ciencia Ficcion</option>
+                    </select>
+            </article>  
+        </section>
+        <section>
+            <h2>Agregadas Recientemente:</h2>
+            <article>
+                <h3>Infinity War</h3>
+                <a href="">
+                    <img src="./img/81GfZasnt9L._SL1371_.jpg" >
+                </a>
+                <ul>
+                    <li>Anio: 2018</li>
+                    <li>Genero: Accion</li>
+                    <li>IMDB: 10 Estrellas</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Deadpool 2</h3>
+                <a href="">
+                    <img src="./img/91+od0A3itL._SL1500_.jpg" >
+                </a>
+                <ul>
+                    <li>Anio: 2018</li>
+                    <li>Genero: Accion</li>
+                    <li>IMDB: 8 Estrellas</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Antman</h3>
+                <a href="">
+                    <img src="./img/Ant-Man_Poster.png" >
+                </a>
+                <ul>
+                    <li>Anio: 2018</li>
+                    <li>Genero: Accion</li>
+                    <li>IMDB: 10 Estrellas</li>
+                </ul>
+            </article>
+        </section>
+    </header>
+</body>
+</html>
